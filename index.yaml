@@ -23,7 +23,7 @@ entries:
       name: naseemkullah
     name: influxdb
     sources:
-    - https://github.com/ProductMadness/influxdb-chart
+    - https://raw.githubusercontent.com/ProductMadness/influxdb-chart/master
     urls:
     - influxdb-4.7.0.tgz
     version: 4.7.0

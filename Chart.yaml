@@ -10,7 +10,7 @@ keywords:
 - influxdata
 home: https://www.influxdata.com/time-series-platform/influxdb/
 sources:
-- https://github.com/ProductMadness/influxdb-chart
+- https://raw.githubusercontent.com/ProductMadness/influxdb-chart/master
 maintainers:
 - name: rawkode
   email: rawkode@influxdata.com
