@@ -14,7 +14,7 @@ spec:
   loadBalancerIP: {{ .Values.service.loadBalancerIP }}
   {{- with .Values.service.loadBalancerSourceRanges }}
   loadBalancerSourceRanges:
-{{ toYaml . | indent 4 }}
+{{ toYaml .Values.service.loadBalancerSourceRanges | indent 4 }}
   {{- end }}
   sessionAffinity: {{ .Values.service.sessionAffinity }}
 {{- end }}
