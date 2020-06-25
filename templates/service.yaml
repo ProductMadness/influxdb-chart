@@ -10,12 +10,14 @@ metadata:
     {{- include "influxdb.labels" . | nindent 4 }}
 spec:
   type: {{ .Values.service.type }}
+{{ if eq .Values.service.type "LoadBalancer" }}
   loadBalancerIP: {{ .Values.service.loadBalancerIP }}
   {{- with .Values.service.loadBalancerSourceRanges }}
   loadBalancerSourceRanges:
-  {{ toYaml . | indent 4 }}
+{{ toYaml . | indent 4 }}
   {{- end }}
   sessionAffinity: {{ .Values.service.sessionAffinity }}
+{{- end }}
   ports:
   - name: api
     port: {{ .Values.config.http.bind_address | default 8086 }}
