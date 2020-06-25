@@ -46,9 +46,9 @@ service:
   ## Add annotations to service
   # annotations: {}
   type: ClusterIP
-  loadBalancerIP:
-  loadBalancerSourceRanges:
-  sessionAffinity:
+  #loadBalancerIP:
+  #loadBalancerSourceRanges:
+  #sessionAffinity:
 
 ## Persist data to a persistent volume
 ##
