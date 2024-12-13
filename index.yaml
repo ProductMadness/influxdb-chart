@@ -3,9 +3,35 @@ entries:
   influxdb:
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2020-06-24T14:30:26.957591+01:00"
+    created: "2024-12-13T14:44:17.554151+01:00"
     description: Scalable datastore for metrics, events, and real-time analytics.
-    digest: 1ed41a1c72318455c0284555c1a46f544bf44d2127c002fe8912764a57c1e55f
+    digest: b4e4fa64536321cc8526aabb74b7924b451d912efaf0eb6b4cf82a307bc2f9c9
+    home: https://www.influxdata.com/time-series-platform/influxdb/
+    keywords:
+    - influxdb
+    - database
+    - timeseries
+    - influxdata
+    maintainers:
+    - email: rawkode@influxdata.com
+      name: rawkode
+    - email: giacomo@influxdata.com
+      name: gitirabassi
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: influxdb
+    sources:
+    - https://raw.githubusercontent.com/ProductMadness/influxdb-chart/master
+    urls:
+    - influxdb-4.7.1.tgz
+    version: 4.7.1
+  - apiVersion: v1
+    appVersion: 1.8.0
+    created: "2024-12-13T14:44:17.553015+01:00"
+    description: Scalable datastore for metrics, events, and real-time analytics.
+    digest: 9105700fc12d9a72676656819ed32db2c5fa6c3aa1117859d4462ae5d8035280
     home: https://www.influxdata.com/time-series-platform/influxdb/
     keywords:
     - influxdb
@@ -27,4 +53,4 @@ entries:
     urls:
     - influxdb-4.7.0.tgz
     version: 4.7.0
-generated: "2020-06-24T14:30:26.955781+01:00"
+generated: "2024-12-13T14:44:17.551733+01:00"
